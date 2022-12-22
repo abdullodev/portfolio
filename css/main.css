@@ -361,7 +361,8 @@ img {
 
 /* home */
 .home {
-  height: calc(100vh - 3rem);
+  margin-top: var(--header-height);
+  height: calc(100vh - 55px) !important;
   row-gap: 1rem;
 }
 .home_data {
@@ -407,7 +408,7 @@ img {
 }
 .home_image {
   position: absolute;
-  width: 290px;
+  min-width: 290px;
   right: 0;
   bottom: 0;
 }
@@ -804,7 +805,7 @@ img {
     margin-right: var(--mb-4);
   }
   .home_image {
-    width: 455px;
+    width: 425px;
     bottom: 15%;
   }
 

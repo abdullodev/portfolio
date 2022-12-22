@@ -62,13 +62,13 @@ sr.reveal(".home_image", { delay: 120 });
 sr.reveal(".home_social_icon", { interval: 140 });
 
 // about scroll
-sr.reveal(".about_img", {});
+sr.reveal(".about_img", { delay: 80 });
 sr.reveal(".section_title", { delay: 100 });
 sr.reveal(".about_subtitle", { delay: 120 });
 sr.reveal(".about_text", { delay: 140 });
 
 // skills scroll
-sr.reveal(".skills_subtitle", {});
+sr.reveal(".skills_subtitle", { delay: 80 });
 sr.reveal(".section_title", { delay: 100 });
 sr.reveal(".skills_text", { delay: 120 });
 sr.reveal(".skills_data", { interval: 140 });
