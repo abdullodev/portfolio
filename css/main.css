@@ -539,12 +539,16 @@ img {
 }
 .work_img {
   position: relative;
+  height: 170px;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.2);
   border-radius: 0.5rem;
   overflow: hidden;
   transition: 0.5s ease;
 }
 .work_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: 0.3s;
 }
 .work_img:hover {
